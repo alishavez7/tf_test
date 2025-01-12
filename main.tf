@@ -23,3 +23,4 @@ module "VM_Module" {
     subnet_id = module.Vnet_Module.subnet_id  
 }
 
+//change main.tf file to check the git version control 
