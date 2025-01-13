@@ -22,5 +22,3 @@ module "VM_Module" {
     rg_name = azurerm_resource_group.tftest_rg.name
     subnet_id = module.Vnet_Module.subnet_id  
 }
-
-//change main.tf file to check the git version control 
